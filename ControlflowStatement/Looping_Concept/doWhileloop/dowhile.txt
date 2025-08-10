@@ -1,0 +1,25 @@
+do..while:
+ It is an exit control loop. i.e. in a do
+while the condition is tested at last.
+ Here do , while are the keywords.
+
+ It is also used to repeat a program
+several times based on a condition.
+ In a do while, do block statements are
+executed first and later while condition
+is tested. If the while condition is true
+then once again the do block
+statements are repeated. Like this the
+process is continued until the while
+condition becomes false.
+ In do while, the while should be end
+with semicolon ( ; ) .
+ Regardless of while condition, the do
+statements are executed at least one
+time. Due to this sometimes we are
+getting unwanted results [ garbage
+values ].
+
+ Use do while whenever it is compulsory
+because of in do while the program is
+controlled at the bottom / last.

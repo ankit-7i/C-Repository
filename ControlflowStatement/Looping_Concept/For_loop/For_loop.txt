@@ -1,0 +1,40 @@
+for loop:
+It is an entry control loop.
+for is a keyword.
+
+It is also used to repeat a program several
+times based on a condition.
+
+When compared with while and do while,
+for loop is looking to be smart. In for it is
+compulsory to maintain two semicolons.
+For works without condition also and
+default condition is always 1 i.e. true.
+Generally for loop is having 3 expressions.
+1. Initialization
+2. Test condition / expression
+3. Increment/decrement / updation
+At first entry of for loop the initialization
+part is executed and later the test
+condition is checked. If the condition is
+true then the for block statements are
+executed. After completion of the block,
+
+the increment or decrement part is
+executed. Later once again the test
+condition is evaluated. If it is true then
+once again for block statements are
+executed. Like this the process is continued
+until the condition becomes false. Here the
+initialization part is executed only once, at
+the time of loop beginning.
+
+It is mandatory to maintain 2 semicolon ( ;
+) in a for loop.
+If the for loop is having more than three
+expressions, it is mandatory to separate
+the expressions with , separator.
+
+If the for loop is having less than three
+expressions, then leave the expressions
+with empty semicolon.

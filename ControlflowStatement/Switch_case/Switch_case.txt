@@ -1,0 +1,64 @@
+SWITCH CONDITIONAL STATEMENT
+
+It is a selection statement.
+It is used to execute one case of statements from no
+of cases according to the switch expression value
+matched with case expression value. In switch the
+program is jumped to matching case like the go to
+label.
+It is similar to ladder if in working style.
+Switch performance is high when compared with
+ladder if because of it jumps to matching case.
+
+Syntax:
+switch(condition / expression)
+{
+case constexp1:
+statements;
+break;
+case constexp2:
+statements;
+break;
+case constexpN:
+statements;
+break;
+[ default: statements; ]
+}
+Here switch, case, break, default are the keywords.
+In between case and case expression / value at least
+one space should be provided. Otherwise it will
+become a label.
+
+case expression/value should be a constant
+integer/char value. i.e. float / string not allowed.
+One case contains one expression only.
+case expression doesn’t contain any separators
+like , . etc.
+case expression should be end with : (colon)
+Each case should be separated with break keyword.
+Otherwise remaining cases also executed.
+Duplicate cases not allowed.
+default is similar to the else and all cases are failed
+then default statements are executed. Default is
+optional and we can declare it anywhere in our
+switch.
+Outside case expressions not considered in switch.
+1. Case value should be a const int.
+2. Variables not allowed in case.
+3. Float / string not allowed.
+4. Duplicate cases not allowed.
+5. Case and case value have to separated
+with at least one space.
+
+6. If space not provided then it is converted
+into a label.
+7. Every case should be end with :
+8. Break is optional and when it is not
+there, remaining case also executed until
+the next break is occurred.
+9. Case doen’t allows range of values.
+10. Case doesn’t allows , . like separators,
+11. Default is optional and working similar to
+else. We can declare default anywhere.
+12. Switch, case, break and default are the
+keywords.

@@ -1,0 +1,42 @@
+Loops / Iterations / Repetitive statements
+Loops are used to repeat a block/group of
+statements continuously until the given
+condition becomes false.
+
+Loops reduce program size and improves
+performance.
+In loops beginning and ending points are
+same.
+
+C-Language supports basically 2 types of
+loops.
+1. Entry/pre controlled loops.
+2. Exit/post controlled loops.
+In entry control loops, condition is tested
+first and it is true then only statements
+block is executed.
+
+Under entry control loops we are having
+i. While loop
+ii. For loop
+In exit control loop, the statements are
+executed first and later condition is tested.
+
+Under exit control loop we are having
+i. do while.
+
+While loop:
+
+ while is a keyword.
+ In while loop condition is tested first
+and it is true then only while block
+statements are executed. After executing
+while block statements, the program
+execution automatically shifted/jumped to
+while condition at the beginning. If it is
+true then once again the while block
+statements are repeated. Like this the
+process is continued until while condition
+becomes false.
+ While is entry control loop.
+

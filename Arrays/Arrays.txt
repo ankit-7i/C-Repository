@@ -1,0 +1,45 @@
+ARRAYS
+
+It is collection of homogeneous [same type] variables.
+Array is nothing but collection of contiguous memory
+locations, where we can store and manage more than one
+value of same type under one name.
+It is a derived data type.
+It is an implicit / internal pointer.
+It is a implicit const pointer
+It is one of data structure.
+Advantages:
+Generally to store several values of same type, we have to
+declare several variables. Here we have to remember all
+these variable names also. When the program is too big, it is
+very difficult to remember all the variable names. In this
+situation, the only solution is array.
+Array reduce program length.
+Array minimize the errors.
+In functions to carry several values of same type at a time,
+we are using arrays.
+It allows to arrange our data in a order.
+Disadvantage:
+
+Array size is Constant Positive Integer value. Due to this we
+are not able to change the array size at run time. Sometimes
+it causes memory wastage / shortage.
+In C language we are using
+1. One dimensional arrays
+2. Multi dimensional arrays
+One dimensional arrays:
+ An array with one row and several columns.
+ An array with single subscripting operator [ ] is called
+one dimensional array.
+ It is an implicit single pointer.
+Syntax:
+
+datatype variable[size] = {elements};
+
+Eg:
+int a[4] = { 9, 3, 1, 8 };
+Memory allocation for array:
+
+Array is implicit pointer because of array variable stores
+base cell [ 0 cell 1st byte ] address. Hence array variable
+value and 0 cell address both are same.
